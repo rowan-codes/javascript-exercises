@@ -1,10 +1,10 @@
-const repeatString = function(word, number_of_repeats) {
-    if (number_of_repeats < 0) return "ERROR";
-    let word_to_print = '';
-    for (let i = 0; i < number_of_repeats; i++) {
-        word_to_print += word
+const repeatString = function(word, numberOfRepeats) {
+    if (numberOfRepeats < 0) return "ERROR";
+    let wordToPrint = '';
+    for (let i = 0; i < numberOfRepeats; i++) {
+        wordToPrint += word
     }
-    return word_to_print;
+    return wordToPrint;
 };
 
 // Do not edit below this line
